@@ -1,12 +1,12 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/CardsDB
+    url: jdbc:mysql://localhost:3307/CardsDB
     username: admin
     password: admin
-    driver-class-name: org.postgresql.Driver
+    driver-class-name: com.mysql.jdbc.Driver
   flyway:
-    enabled: false
+    enabled: true
     user: admin
     password: admin
-    url: jdbc:postgresql://localhost:5432/CardsDB
+    url: jdbc:mysql://localhost:3307/CardsDB
     locations: filesystem:db/migration
