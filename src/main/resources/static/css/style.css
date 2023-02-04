@@ -1,0 +1,87 @@
+.background {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    background: #F0F0F0;
+    place-items: center;
+}
+
+#auth-screen {
+    height: 438px;
+    width: 486px;
+    border-radius: 76px;
+    background: #E3E497;
+
+}
+
+.form-class {
+    width: 100%;
+    height: 100%;
+    color: #939431;
+    line-height: 58px;
+    font-size: 40px;
+}
+
+#he {
+    margin-top: 20px;
+    margin-left: 30%;
+    width: 227px;
+    height: 49px;
+    line-height: 49px;
+}
+
+body {
+    font-family: "Indie Flower";
+    background: #F0F0F0;
+}
+
+.label {
+    text-align: center;
+    width: 178px;
+    height: 38px;
+    float: left;
+    margin-left: 20px;
+}
+
+.log-block {
+    width: 400px;
+    float: left;
+    margin-top: 20px;
+}
+
+.pas-block {
+    float: left;
+    margin-top: 40px;
+    width: 400px;
+
+}
+
+.input {
+    width: 200px;
+    height: 35px;
+    margin-top: 10px;
+    float: right;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.Log-in {
+    margin-left: 30%;
+    margin-top: 50px;
+    background-color: #886898;
+    width: 203px;
+    height: 45px;
+    border-radius: 8px;
+    font-family: "Indie Flower";
+    font-size: 26px;
+    color: #FFFFFF;
+    border-style: none;
+}
+
+.reg-button {
+    width: 115px;
+    height: 38px;
+    font-size: 24px;
+    margin-left: 43%;
+}
+
