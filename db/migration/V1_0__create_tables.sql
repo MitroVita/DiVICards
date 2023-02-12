@@ -1,7 +1,7 @@
 create table if not exists Users
 (
     Id       varchar(36) primary key not null,
-    Login    varchar(20)             not null,
+    Login    varchar(20) unique      not null,
     Password varchar(20)             not null
 );
 create table if not exists Collections
